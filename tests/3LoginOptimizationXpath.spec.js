@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.only('Login with valid credentials', async ({ page }) => {
+test('Login with valid credentials', async ({ page }) => {
   const baseUrl = 'https://testing101.net';
   await page.goto(baseUrl);
   // Verify that the page title is as expected
